@@ -24,15 +24,15 @@ Segmenter un portefeuille de 200 projets de développement (couvrant 8 pays et 8
 
 Le notebook suit un pipeline complet de data science, en 11 étapes :
 
-1. **Contexte & objectifs** — cadrage métier du projet
-2. **Génération du jeu de données synthétique** — 200 projets réalistes (montant, durée, bénéficiaires, emplois créés, impact environnemental, score de risque, avancement…)
-3. **Analyse exploratoire (EDA)** — distributions par pays/secteur, corrélations, relations montant/bénéficiaires/risque
-4. **Prétraitement** — standardisation des variables (`StandardScaler`) indispensable avant clustering
-5. **Choix du nombre optimal de clusters** — méthode du coude (Elbow Method) **et** score de silhouette, utilisés conjointement
-6. **Modélisation K-Means** (k = 4) — entraînement, visualisation par ACP (PCA) en 2D
-7. **Profilage des clusters** — caractérisation statistique et métier de chaque segment (radar chart, boxplots)
-8. **Clustering hiérarchique ascendant** (Agglomerative Clustering, méthode de Ward) — dendrogramme et comparaison avec K-Means
-9. **Interprétation métier & recommandations** — nommage et description des 4 profils de projets identifiés
+1. **Contexte & objectifs**  cadrage métier du projet
+2. **Génération du jeu de données synthétique** 200 projets réalistes (montant, durée, bénéficiaires, emplois créés, impact environnemental, score de risque, avancement…)
+3. **Analyse exploratoire (EDA)** distributions par pays/secteur, corrélations, relations montant/bénéficiaires/risque
+4. **Prétraitement** standardisation des variables (`StandardScaler`) indispensable avant clustering
+5. **Choix du nombre optimal de clusters** méthode du coude (Elbow Method) **et** score de silhouette, utilisés conjointement
+6. **Modélisation K-Means** (k = 4) entraînement, visualisation par ACP (PCA) en 2D
+7. **Profilage des clusters** caractérisation statistique et métier de chaque segment (radar chart, boxplots)
+8. **Clustering hiérarchique ascendant** (Agglomerative Clustering, méthode de Ward) dendrogramme et comparaison avec K-Means
+9. **Interprétation métier & recommandations** nommage et description des 4 profils de projets identifiés
 
 ## Résultats principaux
 
