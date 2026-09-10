@@ -48,10 +48,10 @@ Le notebook suit un pipeline complet de data science, en 11 étapes :
 ##  Stack technique
 
 - **Python 3**
-- `pandas`, `numpy` — manipulation de données
-- `matplotlib`, `seaborn` — visualisation
-- `scikit-learn` — `StandardScaler`, `KMeans`, `AgglomerativeClustering`, `PCA`, `silhouette_score`
-- `scipy` — `linkage`, `dendrogram` (clustering hiérarchique)
+- `pandas`, `numpy` 
+- `matplotlib`, `seaborn` 
+- `scikit-learn` `StandardScaler`, `KMeans`, `AgglomerativeClustering`, `PCA`, `silhouette_score`
+- `scipy`  `linkage`, `dendrogram`
 
 ## Reproduire le projet
 
